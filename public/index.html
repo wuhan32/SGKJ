@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  <title><%= htmlWebpackPlugin.options.isProd ? '' : 'dev - ' %>视光科技-近视眼防控平台</title>
+  <% if(htmlWebpackPlugin.options.isProd){ %>
+  <!-- <link href="https://cdn.bootcdn.net/ajax/libs/nprogress/0.2.0/nprogress.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css"> -->
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vxe-table/lib/index.css"> -->
+
+  <!-- <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  <script src="https://unpkg.com/vue-router@3.3.4/dist/vue-router.js"></script>
+  <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+  <script src="https://cdn.bootcdn.net/ajax/libs/nprogress/0.2.0/nprogress.js"></script>
+  <script src="https://cdn.bootcdn.net/ajax/libs/echarts/4.8.0/echarts-en.common.js"></script> -->
+  <% } %>
+</head>
+
+<body style="overflow-y: hidden;">
+  <noscript>
+    <strong></strong>
+  </noscript>
+  <div id="app"></div>
+</body>
+
+</html>

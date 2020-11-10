@@ -1,0 +1,47 @@
+{
+  "_from": "vue-direction-key",
+  "_id": "vue-direction-key@1.0.5",
+  "_inBundle": false,
+  "_integrity": "sha1-jsE3olyR1kHwFjsZi7iLsIghQrA=",
+  "_location": "/vue-direction-key",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "vue-direction-key",
+    "name": "vue-direction-key",
+    "escapedName": "vue-direction-key",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/vue-direction-key/download/vue-direction-key-1.0.5.tgz",
+  "_shasum": "8ec137a25c91d641f0163b198bb88bb0882142b0",
+  "_spec": "vue-direction-key",
+  "_where": "C:\\Users\\Administrator\\Desktop\\sgkj\\emrweb\\sgkj",
+  "author": {
+    "name": "huang"
+  },
+  "bugs": {
+    "url": "https://github.com/hxkuc/vue-direction-key/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "vue方向键插件，适合键盘的快捷键操作，通过键盘在input间切换，应用在后台系统开单，财务等等的快速输入和保存上，使用简单，配置方便",
+  "homepage": "https://github.com/hxkuc/vue-direction-key#readme",
+  "license": "ISC",
+  "main": "./direction.js",
+  "name": "vue-direction-key",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hxkuc/vue-direction-key.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.5"
+}

@@ -1,0 +1,107 @@
+.theme(@backcolor: #045FAB,
+  @h1font: #316DC6,
+  @backcolor1: linear-gradient(rgb(244, 250, 255), rgb(182, 208, 247)),
+  @backcolor2: rgb(193, 214, 247),
+  @bgckcolor3: rgb(185, 217, 253),
+  @bodercolor: rgb(186, 209, 244)) {
+  .logo {
+    background: @backcolor;
+  }
+
+  .logo-h1 {
+    color: @h1font;
+  }
+
+  .header-bottom {
+    background: @backcolor1;
+
+    li {
+      background-color: @backcolor2;
+    }
+  }
+
+  .toggle-button {
+    background: @backcolor1;
+  }
+
+  .client {
+    .client-header {
+      background: @backcolor1;
+    }
+
+    .search-body {
+      background-color: rgb(222, 236, 250);
+
+      .el-input__inner {
+        width: 120px;
+      }
+    }
+  }
+
+  .tags {
+    background-color: @bgckcolor3 ;
+
+    .tags-li {
+      background: rgb(222, 236, 250);
+    }
+  }
+
+  .el-submenu__title,
+  .el-menu-left-one {
+    //background: @backcolor1  !important;
+    background: #E0ECFF!important;    
+    height: 40px;
+    line-height: 40px;
+    border-bottom:1px solid #95B8E7!important;
+    border-left:1px solid #95B8E7!important;
+    border-right:1px solid #95B8E7!important;
+    
+
+    .iconfont {
+      color: @h1font  !important;
+      font-weight: 700;
+    }
+
+    span {
+      color: @h1font  !important;
+      font-weight: bold;
+    }
+  }
+  .el-menu--inline
+  {
+    border-bottom:1px solid #95B8E7!important;
+  }
+  .el-menu-left {
+    .el-submenu__title {
+      //background: @backcolor  !important;
+      height: 40px;
+      line-height: 40px;
+      border-bottom: 2px solid @backcolor2;
+
+      .iconfont {
+        color: @h1font  !important;
+        font-weight: 700;
+      }
+
+      span {
+        color: @h1font  !important;
+      }
+
+      &.is-active {
+        span {
+          color: #fff !important;
+        }
+
+      }
+
+    }
+  }
+
+  .eyeViewMain {
+    background-color: @bgckcolor3;
+  }
+
+  .eye {
+    background-color: @bgckcolor3;
+  }
+}
